@@ -93,13 +93,13 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-      <motion.div variants={textVariant()} className="flex justify-end w-full mt-4">
-        <Link
+      <motion.div variants={textVariant()} className="flex justify-end w-full mt-4 md:mt-8">
+        <a
           href="https://www.fiverr.com/hassaniqbal34?public_mode=true"
-          className={styles.sectionSubText}
+          className={`${styles.sectionSubText} hover:underline`}
         >
-          View all Reviews{" "}
-        </Link>
+          View all Projects{" "}
+        </a>
       </motion.div>
     </>
   );

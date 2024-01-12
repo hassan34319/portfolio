@@ -45,7 +45,7 @@ const About = () => {
       <div className="flex text-white justify-between flex-col md:flex-row">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-secondary text-[17px] max-w-2xl leading-[30px] "
+          className="mt-4 text-secondary text-[17px] max-w-2xl leading-[30px] order-2 md:order-1 "
         >
           Welcome to my portfolio ! I'm Hassan, a student by day and your
           favorite web developer by the night. I believe in the power of
@@ -59,7 +59,7 @@ const About = () => {
         </motion.p>
 
         <img
-          className=" max-w-[30%]"
+          className=" md:max-w-[30%] order-1 md:order-2 w-full"
           src="Hassan1.png"
           alt="Profile Image"
         />

@@ -59,6 +59,9 @@ const Feedbacks = () => {
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
+      <motion.div variants={textVariant()} className="flex justify-end w-full mt-4">
+        <Link href="https://www.fiverr.com/hassaniqbal34?public_mode=true" className={styles.sectionSubText}>View all Reviews </Link>
+      </motion.div>
     </div>
   );
 };

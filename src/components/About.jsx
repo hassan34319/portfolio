@@ -65,7 +65,7 @@ const About = () => {
         />
       </div>
 
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className="mt-4">
         <p className={styles.sectionSubText}>What Makes My Websites Unique</p>
         <h2 className={styles.sectionHeadText}>Features</h2>
       </motion.div>

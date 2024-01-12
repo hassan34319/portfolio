@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="/Hassan1.png" alt='logo' className='w-9 h-9 object-contain' />
+          <img src="/logo.svg" alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Hassan &nbsp;
             <span className='sm:block hidden'> | Web Developer</span>

@@ -39,6 +39,7 @@ import chair from "./tech/chair.png"
 import cld from "./tech/cld.png"
 import podle from "./tech/podle.png"
 import live from "./tech/live.png"
+import cubit from "./tech/cubit2.png"
 
 export {
   live,
@@ -79,4 +80,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  cubit
 };

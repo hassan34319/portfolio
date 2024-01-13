@@ -206,7 +206,7 @@ const experiences = [
   {
     title: "Cheif Executive Officer",
     company_name: "Cubit Knits",
-    icon: upwork,
+    icon: cubit,
     iconBg: "#E6DEDD",
     date: "Jan 2021- Oct 2022",
     points: [

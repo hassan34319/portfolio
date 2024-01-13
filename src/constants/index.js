@@ -177,9 +177,10 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  
   {
     title: "Training and Leading Developers",
-    company_name: "Devix",
+    company_name: "Linkedin",
     icon: linkedin,
     iconBg: "#383E56",
     date: "Jan 2022 - Present",
@@ -200,6 +201,19 @@ const experiences = [
       "Learnt to leverage the MERN stack to build full stack applications",
       "Developed full-stack Large scale websites as part of training from the bootcamp",
       "Implementing the Modern Tech Stack - Next.js, React.js, Tailwind CSS, Framer Motion and Typescript",
+    ],
+  },
+  {
+    title: "Cheif Executive Officer",
+    company_name: "Cubit Knits",
+    icon: upwork,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021- Oct 2022",
+    points: [
+      "Responsible for handling the technical aspects of production",
+      "Designing of Printed Products such as Doormats",
+      "Connecting to suppliers from different countries",
+      "Marketing Product in Ecommerce Local and International Markets",
     ],
   },
 ];
@@ -301,4 +315,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, technologies2, experiences, testimonials, projects };

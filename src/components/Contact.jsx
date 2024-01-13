@@ -146,7 +146,7 @@ const Contact = () => {
 
           <a
             href="mailto:hassaniqbal19343l@gmail.com"
-            style={{ fontSize: "32px" }}
+            style={{ fontSize: "32px",  }}
           >
             <i className="far fa-envelope"></i>
           </a>

@@ -32,6 +32,7 @@ import {
   udemy,
   upwork,
   fiver,
+  cubit,
 } from "../assets";
 
 export const navLinks = [

@@ -7,6 +7,14 @@ import CanvasLoader from "../Loader";
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
+  const scaleFactor = 4.2;
+  const scale = isMobile
+    ? [0.4 * scaleFactor, 0.4 * scaleFactor, 0.4 * scaleFactor]
+    : [1 * scaleFactor, 1 * scaleFactor, 1 * scaleFactor];
+
+  // Adjust the yOffset for mobile view to move the model 20% down
+  const yOffset = isMobile ? -0.2 : 0.2; // Adjust as needed
+
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />

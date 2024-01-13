@@ -122,6 +122,33 @@ const technologies = [
     icon: figma,
   },
 ];
+const technologies2 = [
+  {
+    name: "next",
+    icon: next,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "sanity",
+    icon: sanity,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  }
+
+];
 
 const experiences = [
   {

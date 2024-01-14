@@ -8,10 +8,11 @@ import {
   Feedbacks,
   Hero,
   Navbar,
-  Tech,
   Works,
   StarsCanvas,
 } from "./components";
+
+import Skills from "./components/Skills"
 
 const App = () => {
   return (
@@ -45,7 +46,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
+        <Skills/>
         <Works />
         <Feedbacks />
         <div className="relative z-0">
